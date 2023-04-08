@@ -8,12 +8,14 @@ This is the project from the [YouTube crash course](https://www.youtube.com/watc
 
 ```
 npm install
+npm install -g json-server
 ```
 
 ### Run React dev server (http://localhost:3000)
 
 ```
 npm start
+json-server --port 5000 --watch db.json
 ```
 
 ### Run the JSON server (http://localhost:5000)
